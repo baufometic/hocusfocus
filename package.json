@@ -1,0 +1,82 @@
+{
+	"name": "hocusfocus",
+	"description": "A next generation mind manager that reads your internals to lift you out of your vicious slump.",
+	"author": "Pete Savva <p.savva@protonmail.ch> (https://techandtribal.com)",
+	"version": "0.0.1",
+	"private": true,
+	"homepage": "https://github.com/baufometic/hocusfocus#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/baufometic/hocusfocus.git"
+	},
+	"bugs": {
+		"url": "https://github.com/baufometic/hocusfocus/issues"
+	},
+	"keywords": [
+		"adhd",
+		"hocusfocus",
+		"techandtribal",
+		"javascript",
+		"react",
+		"css",
+		"supabase",
+		"focus",
+		"modafinal",
+		"concerta",
+		"depression",
+		"mindmanager"
+	],
+	"scripts": {
+		"build": "next build",
+		"dev-public": "next dev -H 192.168.1.161",
+		"cleanup": "rm -rf .next",
+		"dev:cleanup": "npm run cleanup && next dev",
+		"dev": "next dev",
+		"lint": "next lint",
+		"start": "next start",
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.1.1",
+		"@fortawesome/free-brands-svg-icons": "^6.1.1",
+		"@fortawesome/free-regular-svg-icons": "^6.1.1",
+		"@fortawesome/free-solid-svg-icons": "^6.1.1",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"@liveblocks/client": "^0.17.4",
+		"@liveblocks/react": "^0.17.4",
+		"@react-three/drei": "^9.16.0",
+		"@react-three/fiber": "^8.0.27",
+		"@supabase/auth-helpers-nextjs": "^0.2.1",
+		"@supabase/auth-helpers-react": "^0.2.1",
+		"@supabase/supabase-js": "^1.35.4",
+		"@techandtribal/maximilian": "latest",
+		"gray-matter": "^4.0.3",
+		"leva": "^0.9.28",
+		"next": "12.2.0",
+		"nodemailer": "^6.7.6",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"styled-components": "^5.3.5",
+		"three": "^0.142.0",
+		"use-sound": "^4.0.1"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/react": "^13.3.0",
+		"@testing-library/user-event": "^14.2.1",
+		"@types/jest": "^28.1.4",
+		"@types/node": "18.0.1",
+		"@types/nodemailer": "^6.4.4",
+		"@types/react": "18.0.14",
+		"@types/react-dom": "18.0.5",
+		"@types/styled-components": "^5.1.25",
+		"@types/three": "^0.141.0",
+		"@typescript-eslint/eslint-plugin": "^5.30.4",
+		"@typescript-eslint/parser": "^5.30.4",
+		"eslint": "8.19.0",
+		"eslint-config-next": "12.2.0",
+		"jest": "^28.1.2",
+		"typescript": "4.7.4"
+	}
+}
