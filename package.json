@@ -1,7 +1,7 @@
 {
+	"author": "Pete Savva <p.savva@protonmail.ch> (https://techandtribal.com)",
 	"name": "hocusfocus",
 	"description": "A next generation mind manager that reads your internals to lift you out of your vicious slump.",
-	"author": "Pete Savva <p.savva@protonmail.ch> (https://techandtribal.com)",
 	"version": "0.0.1",
 	"private": true,
 	"homepage": "https://github.com/baufometic/hocusfocus#readme",
